@@ -1,0 +1,40 @@
+@import '~antd/dist/antd.css';
+@import './styles/GoogleMap.css';
+@import './styles/App.css';
+@import './styles/Main.css';
+@import './styles/Nav.css';
+@import './styles/Header.css';
+@import './styles/UserMenu.css';
+@import './styles/Register.css';
+@import './styles/Login.css';
+@import './styles/QuoteOrder.css';
+@import './styles/MethodCard.css';
+@import './styles/Recommend.css';
+@import './styles/Autocomplete.css';
+@import './styles/FillAddress.css';
+
+
+* {
+    /* color: #525252; */
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+
+}
+
+.ant-button {
+    color: #fff;
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    border-radius: 0;
+    background-color: #007844;
+    border: none;
+    box-shadow: none;
+    height: 36px;
+}
+
+.ant-input {
+    border: solid 1px #4f4f4f;
+    border-radius: 0;
+}
