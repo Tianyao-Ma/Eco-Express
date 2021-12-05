@@ -1,10 +1,10 @@
 # Eco-Delivery
 
 <p align="center">
-<img src="https://img.shields.io/badge/Backend-%20Java | JavaServlet%20-F6922B.svg">
+<img src="https://img.shields.io/badge/Backend-%20Java | Spring %20-F6922B.svg">
 <img src="https://img.shields.io/badge/Frontend-%20 React | AntDesign%20-43dcf2.svg">
-<img src="https://img.shields.io/badge/Framework-JavaServlet | node.js %20-ec63a8.svg">
-<img src="https://img.shields.io/badge/Database-%20 SQL %20-3de540.svg">
+<img src="https://img.shields.io/badge/Framework-Spring | Hibernate %20-ec63a8.svg">
+<img src="https://img.shields.io/badge/Database-%20 Postgres %20-3de540.svg">
 <img src="https://img.shields.io/badge/Deployment-%20AWS EC2%20-DDC7FC.svg">
 <img src="https://img.shields.io/badge/Platform-%20Fullstack Web%20-F6F063.svg">
 </p>
@@ -26,9 +26,9 @@
 ## 🤖 Tech Stack
 
 * Java
-* Java Servlet
-* Twitch API
-* SQL
+* Spring
+* Hibernate
+* Postgres
 * React
 * Ant Design 3
 * Amazon Web Services
@@ -41,11 +41,11 @@
 
 ## :fire: Key Features
 
-- **RESTful API using Java servlets**.
-- **Retrieve real time data through Twitch API and store in MySQL** [[Twitch API]](#twitch-api)
-- **Display popular games retrived from Twitch website for all users**.
-- **Support three search functionality: by top games, by game name, and through favorited collections**. [[Search Methods]](#search-methods)
-- **Registered user can save and collect favorite clips/streams/videos**. [[Favorite Feature]](#set-and-unset-favorite-items)
+- **Implemented Rest API via Spring MVC including registration, menu searching and ordering, checkout.**.
+- **Utilized Hibernate to access and operate the data storage (menu, restaurants etc.)** [[Twitch API]](#twitch-api)
+- **Provided both authentication and authorization via Spring security to protect the application from malicious attacks.**.
+- **Used the Spring framework core technologies to loosely decouple all the components in the application**. [[Search Methods]](#search-methods)
+- **Build the client side with ReactJS and Ant Design to allow users to add items to the shopping cart and place orders.**. [[Favorite Feature]](#set-and-unset-favorite-items)
 - **Content-based reommendation system**. [[Recommendation System]](#content-based-recommendation)
 - **Minimal, content-focused, and clutter-free frontEnd design**.
 
