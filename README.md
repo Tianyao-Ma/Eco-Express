@@ -41,6 +41,25 @@
 
 ## :fire: Key Features
 
+
+Visualize real time location on Google Map
+API call and change state cause Synchronization
+Cross domain error
+Confliction of Cors  and JWT Security
+Joining tables with Many to One relationship cause nested results
+
+Changed to Google Map JS API
+Implemented Promise
+Utilized Spring Cors Configuration File
+Added CorsFilter to Security Configuration file
+Used JsonIgnore annotation
+
+We built  a Dispatch & Delivery Management Web Application. The service is to deliver small to medium scale items to residents in San Francisco using drones or robots.
+We now have 3 dispatching centers in the city.
+Users can sign up or login on our application, place or cancel orders, view history orders, and track ongoing orders.
+We provide customized  delivery recommendations for customers according to their needs.
+
+
 - **Implemented Rest API via Spring MVC including registration, menu searching and ordering, checkout.**.
 - **Utilized Hibernate to access and operate the data storage (menu, restaurants etc.)** [[Twitch API]](#twitch-api)
 - **Provided both authentication and authorization via Spring security to protect the application from malicious attacks.**.
