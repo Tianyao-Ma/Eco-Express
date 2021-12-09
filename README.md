@@ -13,7 +13,11 @@
 
 ## 🎬 About the project
 <p align="justify"> 
-  For those of you not familiar with Pacman, it's a game where Pacman (the yellow circle with a mouth in the above figure) moves around in a maze and tries to eat as many food pellets (the small white dots) as possible, while avoiding the ghosts (the other two agents with eyes in the above figure). If Pacman eats all the food in a maze, it wins.
+  Delivery and online shopping became the new norm. Trunk and small vehicles are still the main tranportation. Drones and AI also became more and more intelligent and reliable. Can we combine them together and make the delivery path greener?
+  We built  a Dispatch & Delivery Management Web Application. The service is to deliver small to medium scale items to residents in San Francisco using drones or robots.
+We now have 3 dispatching centers in the city.
+Users can sign up or login on our application, place or cancel orders, view history orders, and track ongoing orders.
+We provide customized  delivery recommendations for customers according to their needs.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
