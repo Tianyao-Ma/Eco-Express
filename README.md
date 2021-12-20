@@ -40,7 +40,7 @@ We provide customized  delivery recommendations for customers according to their
 ## 📐 Design Doc
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/78308927/130887360-e570d151-acb0-42f4-9051-3721bcbe103e.jpg" width=800>
+<img src="https://user-images.githubusercontent.com/78308927/146706910-7440cd65-23e6-4eb4-9842-adef4f1675fe.jpg" width=800>
 </p>
 
 ## :fire: Key Features
