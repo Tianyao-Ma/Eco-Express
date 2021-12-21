@@ -45,7 +45,12 @@ We provide customized  delivery recommendations for customers according to their
 
 ## :fire: Key Features
 
-
+Designed and built a full-stack web application that provides city-wide delivery service using eco-friendly agent like robots and drones with personalized recommendation feature
+• Implemented RESTFUL APIs using Spring Boot frame work, and Spring Security for authentification
+• Supported functions including logIn/logout, place order, live-track order, and cancel order
+• Developed budget oriented recommendation algorithm
+• Used Postgres to store data and deployed it to Amazon RDS for better simplicity and scalability
+• Established front-end web page with tracking visualization using React JS, AntDesign and Google Map API
 Visualize real time location on Google Map
 API call and change state cause Synchronization
 Cross domain error
@@ -63,8 +68,9 @@ We now have 3 dispatching centers in the city.
 Users can sign up or login on our application, place or cancel orders, view history orders, and track ongoing orders.
 We provide customized  delivery recommendations for customers according to their needs.
 
-
-- **Implemented Rest API via Spring MVC including registration, menu searching and ordering, checkout.**.
+- **Implemented RESTful API via Spring MVC including registration, order creation, update, deletion and inquiry**.
+- **Optimized the authentication using token based registration/login/logout flow with React Router v4 and
+server-side user authentication with JWT**.
 - **Utilized Hibernate to access and operate the data storage (menu, restaurants etc.)** [[Twitch API]](#twitch-api)
 - **Provided both authentication and authorization via Spring security to protect the application from malicious attacks.**.
 - **Used the Spring framework core technologies to loosely decouple all the components in the application**. [[Search Methods]](#search-methods)
