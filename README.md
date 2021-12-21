@@ -13,6 +13,7 @@
 
 ## 🎬 About the project
 <p align="justify"> 
+  a full-stack web application that provides city-wide delivery service using eco-friendly agent like robots and drones with personalized recommendation feature
   Delivery and online shopping became the new norm. Trunk and small vehicles are still the main tranportation. Drones and AI also became more and more intelligent and reliable. Can we combine them together and make the delivery path greener?
   We built  a Dispatch & Delivery Management Web Application. The service is to deliver small to medium scale items to residents in San Francisco using drones or robots.
 We now have 3 dispatching centers in the city.
@@ -40,57 +41,22 @@ We provide customized  delivery recommendations for customers according to their
 ## 📐 Design Doc
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/78308927/146706910-7440cd65-23e6-4eb4-9842-adef4f1675fe.jpg" width=800>
+<img src="https://user-images.githubusercontent.com/78308927/146863721-16a3abbe-7025-4286-ab6a-a8f091b36a60.jpg" width=800>
 </p>
 
 ## :fire: Key Features
 
-Designed and built a full-stack web application that provides city-wide delivery service using eco-friendly agent like robots and drones with personalized recommendation feature
-• Implemented RESTFUL APIs using Spring Boot frame work, and Spring Security for authentification
-• Supported functions including logIn/logout, place order, live-track order, and cancel order
-• Developed budget oriented recommendation algorithm
-• Used Postgres to store data and deployed it to Amazon RDS for better simplicity and scalability
-• Established front-end web page with tracking visualization using React JS, AntDesign and Google Map API
-Visualize real time location on Google Map
-API call and change state cause Synchronization
-Cross domain error
-Confliction of Cors  and JWT Security
-Joining tables with Many to One relationship cause nested results
+- **RESTful API via Spring MVC including registration, order creation, update, deletion and inquiry**.
+- **Optimized authentication using token based registration/login with Spring Securiry Framework with JWT**.
+- **Budget-oriented recommendation algorithm**.
+- **Support real time package tracking with 4 status: placed, picked, cancelled, and delivered**.
+- **Utilized Hibernate to access and operate the data storage**.
+- **Used Postgres to store data and deployed it to Amazon RDS for better simplicity and scalability**.
+- **Used the Spring framework core technologies to loosely decouple all the components in the application**.
+- **Eco-themed and clutter-free frontEnd design using ReactJS, AntDesign and Google Js API to visualize the delivery route**. 
+- **Used Postgres to store data and deployed it to Amazon RDS for better simplicity and scalability**. 
 
-Changed to Google Map JS API
-Implemented Promise
-Utilized Spring Cors Configuration File
-Added CorsFilter to Security Configuration file
-Used JsonIgnore annotation
-
-We built  a Dispatch & Delivery Management Web Application. The service is to deliver small to medium scale items to residents in San Francisco using drones or robots.
-We now have 3 dispatching centers in the city.
-Users can sign up or login on our application, place or cancel orders, view history orders, and track ongoing orders.
-We provide customized  delivery recommendations for customers according to their needs.
-
-- **Implemented RESTful API via Spring MVC including registration, order creation, update, deletion and inquiry**.
-- **Optimized the authentication using token based registration/login/logout flow with React Router v4 and
-server-side user authentication with JWT**.
-- **Utilized Hibernate to access and operate the data storage (menu, restaurants etc.)** [[Twitch API]](#twitch-api)
-- **Provided both authentication and authorization via Spring security to protect the application from malicious attacks.**.
-- **Used the Spring framework core technologies to loosely decouple all the components in the application**. [[Search Methods]](#search-methods)
-- **Build the client side with ReactJS and Ant Design to allow users to add items to the shopping cart and place orders.**. [[Favorite Feature]](#set-and-unset-favorite-items)
-- **Content-based reommendation system**. [[Recommendation System]](#content-based-recommendation)
-- **Minimal, content-focused, and clutter-free frontEnd design**.
 
 ## :seedling: For Furture Improvement
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## :spiral_notepad: Sample Code
-### Twitch API
-#### Retrieve real-time data from Twitch using Twitch API
-
- -  [Twitch API](https://dev.twitch.tv/docs/api/) is a RESTFUL API that lets developers build creative integrations for the broader Twitch community 
- -  For all users, myTwitchHub offers top game display and will allow client to search content by game name, which will fetch data by calling two Twitch APIs: [GetTopGames](https://dev.twitch.tv/docs/api/) and [getGames](https://dev.twitch.tv/docs/api/reference#get-games)
- 
-```
-public class TwitchClient {
-   
-    // Returns the top x streams based on game ID.
-    private List<Item> searchStreams(
+Optimize the paymnet function with thrid-party payment processing system like [Stripe](https://github.com/Tianyao-Ma/Eco-Express/edit/main/README.md). 
 
