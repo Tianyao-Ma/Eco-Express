@@ -47,11 +47,10 @@ We provide customized  delivery recommendations for customers according to their
 ## :fire: Key Features
 
 - **RESTful API via Spring MVC including registration, order creation, update, deletion and inquiry**.
-- **Optimized authentication using token based registration/login with Spring Securiry Framework with JWT**.
+- **Optimized authentication using token based registration/login with Spring Securiry Framework and JWT**.
 - **Budget-oriented recommendation algorithm**.
 - **Support real time package tracking with 4 status: placed, picked, cancelled, and delivered**.
 - **Utilized Hibernate to access and operate the data storage**.
-- **Used Postgres to store data and deployed it to Amazon RDS for better simplicity and scalability**.
 - **Used the Spring framework core technologies to loosely decouple all the components in the application**.
 - **Eco-themed and clutter-free frontEnd design using ReactJS, AntDesign and Google Js API to visualize the delivery route**. 
 - **Used Postgres to store data and deployed it to Amazon RDS for better simplicity and scalability**. 
