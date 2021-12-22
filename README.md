@@ -13,12 +13,12 @@
 
 ## 🎬 About the project
 <p align="justify"> 
-   According to The Washington Post, during the COVID-19 pandemic, parcel delivery volume surged 70% in the U.S, and UPS CEO Carol Tomé has already reported that demand will exceed capacity by about 5 million pieces per day. But what is the cost to the environment? Total shipping emissions, based on a multi-year average, account for 2.8% of greenhouse gas emissions worldwide, which equates to 1,036 million tonnes CO2eq per year.
+   During the COVID-19 pandemic, according to The Washington Post, parcel delivery volume surged 70% in the U.S, and UPS CEO Carol Tomé reported that demand will exceed capacity by about 5 million pieces per day. But what is the cost to the environment? Total shipping emissions, based on a multi-year average, account for 2.8% of greenhouse gas emissions worldwide, which equates to 1,036 million tonnes CO2eq per year. 
+
+**With more advanced drone and AI technology, is it possible to substitute traditional transportation to those solar powered robots?**
   
-  full-stack web application that provides city-wide delivery service using eco-friendly agent like robots and drones with personalized recommendation featureWe built  a Dispatch & Delivery Management Web Application. The service is to deliver small to medium scale items to residents in San Francisco using drones or robots.
-We now have 3 dispatching centers in the city.
-Users can sign up or login on our application, place or cancel orders, view history orders, and track ongoing orders.
-We provide customized  delivery recommendations for customers according to their needs.
+In this group project, we implemented this full-stack web application that provides city-wide delivery services using eco-friendly technology like robots and drones with personalized recommendation features. The service is to deliver small to medium scale items to residents in San Francisco from 3 dispatching centers in the city. Users can register and login on our application, get recommendations on the most budget-friendly delivery method, place or cancel orders, view history orders, and track ongoing orders with a visualized route.
+
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
